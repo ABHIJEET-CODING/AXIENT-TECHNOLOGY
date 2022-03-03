@@ -1,5 +1,10 @@
 
 /* about */
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
 #about {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -25,7 +30,7 @@
 
 #services h1::after {
     content: "";
-    background: #efefef;
+
     display: block;
     height: 3px;
     width: 170px;
@@ -55,7 +60,7 @@
 .services .col-md-3:hover {
     background: #007bff;
     cursor: pointer;
-    transition: 0.7s;
+    transition: 0.1s;
 }
 /*Contact Us*/
 #contact {
@@ -76,6 +81,13 @@
     margin: 10px;
     color: #007bff;
     font-weight: bold;
+}
+.container{
+    padding-top: 20px;
+}
+.work{
+    padding-top: 50px;
+   
 }
 /* footer */
 #footer {
